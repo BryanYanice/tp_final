@@ -291,6 +291,12 @@ footer h1
     color: #760001;
 }
 
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
 @media all and (max-width: 1024px)
 {
     #bloc_page
@@ -321,12 +327,40 @@ footer h1
 
     nav a:hover
     {
-        border-bottom: 0;
+        border-bottom: 0
     }
     
     #banniere_image
     {
         display: none;
+    }
+
+    aside p:last-child
+    {
+        text-align: center;
+    }
+
+    section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    #fleche_bulle
+    {
+        display: none;
+    }
+
+    #photo_zozor img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
     }
 
     aside p:last-child
